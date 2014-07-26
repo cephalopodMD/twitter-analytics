@@ -21,6 +21,18 @@ In ubuntu, install via the following
 
 twython requires a twitter developer account
 
+your mysql db should have the following tables
+
+TweetBank|TweetBankTemp|TweetLog
+---------|-------------|--------
+tweet_id|tweet_id|RunId
+tweet_datetime|tweet_datetime|BatchId
+tweet_keyword|tweet_keyword|RunDate
+tweet|tweet|Keyword
+tweeter|tweeter|HarvestedThisRun
+lang|lang|TotalHarvested
+geo|geo|
+
 credit to Ryan Robitalle for the original code this was based on originally in
 sql server and with an older twitter API at
 http://ryrobes.com/python/harvesting-twitter-search-results-for-analysis-using-python-sql-server/
