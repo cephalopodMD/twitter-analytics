@@ -23,15 +23,15 @@ twython requires a twitter developer account
 
 your mysql db should have the following tables
 
-TweetBank|TweetBankTemp|TweetLog
----------|-------------|--------
-tweet_id|tweet_id|RunId
-tweet_datetime|tweet_datetime|BatchId
-tweet_keyword|tweet_keyword|RunDate
-tweet|tweet|Keyword
-tweeter|tweeter|HarvestedThisRun
-lang|lang|TotalHarvested
-geo|geo|
+TweetBank                |TweetBankTemp           |TweetLog
+-------------------------|------------------------|--------
+tweet_id bigint(20)      |tweet_id bigint(20)     |RunId int(11)
+tweet_datetime datetime  |tweet_datetime datetime |BatchId int(11)
+tweet_keyword varchar(50)|tweet_keywordvarchar(50)|RunDate datetime
+tweet varchar(200)       |tweet varchar(200)      |Keywordles varchar(50)
+tweeter varchar(100)     |tweeter varchar(100)    |HarvestedThisRun int(11)
+lang varchar(50)         |lang varchar(50)        |TotalHarvested int(11)
+geo varchar(50)          |geo varchar(50)         |
 
 credit to Ryan Robitalle for the original code this was based on originally in
 sql server and with an older twitter API at
