@@ -10,7 +10,7 @@ will be expanded upon in future releases
 
 ###Required dependencies
 
-1. A mysql server set up
+1. A mysql database
 2. PyMySql
 3. twython
 
