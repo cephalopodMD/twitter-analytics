@@ -12,13 +12,16 @@ Required dependencies
 
 In ubuntu, install via the following
 
-sudo apt-get install mysql-client
-sudo apt-get install mysql-server
-pip install PyMySQL
-pip install twython
+  sudo apt-get install mysql-client
+  
+  sudo apt-get install mysql-server
+  
+  pip install PyMySQL
+  
+  pip install twython
 
 twython requires a twitter developer account
 
 credit to Ryan Robitalle for the original code this was based on originally in
-sql server and with an older twitter API
+sql server and with an older twitter API at
 http://ryrobes.com/python/harvesting-twitter-search-results-for-analysis-using-python-sql-server/
