@@ -12,13 +12,12 @@ Required dependencies
 
 In ubuntu, install via the following
 
+``` bash
   sudo apt-get install mysql-client
-  
   sudo apt-get install mysql-server
-  
   pip install PyMySQL
-  
   pip install twython
+```
 
 twython requires a twitter developer account
 
