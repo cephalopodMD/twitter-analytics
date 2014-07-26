@@ -1,10 +1,14 @@
-twitter-analytics
-=================
+#twitter-analytics
 
 A simple data harvesting library for twitter built in python
 
-Required dependencies
-=====================
+includes:
+
+1. harvest.py - a module for harvesting tweets and storing them into a db
+
+will be expanded upon in future releases
+
+###Required dependencies
 
 1. A mysql server set up
 2. PyMySql
