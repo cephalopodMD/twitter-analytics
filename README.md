@@ -22,7 +22,7 @@ In ubuntu, install via the following
 twython requires a twitter developer account
 
 your mysql db should have the following tables (I will try to add a setup module
-Sto make this task easier)
+to make this task easier)
 
 TweetBank                |TweetBankTemp           |TweetLog
 -------------------------|------------------------|--------
