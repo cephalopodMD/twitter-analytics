@@ -8,6 +8,8 @@ includes:
 
 will be expanded upon in future releases
 
+Similar to pattern project
+
 ###Required dependencies
 
 1. A mysql database
