@@ -40,6 +40,6 @@ tweeter varchar(100)     |tweeter varchar(100)    |HarvestedThisRun int(11)
 lang varchar(50)         |lang varchar(50)        |TotalHarvested int(11)
 geo varchar(50)          |geo varchar(50)         |
 
-credit to Ryan Robitalle for the original code this was based on originally in
-sql server and with an older twitter API at
+credit to Ryan Robitalle for the code this was based on 
+originally written for sql server using a different version of the twitter API
 http://ryrobes.com/python/harvesting-twitter-search-results-for-analysis-using-python-sql-server/
